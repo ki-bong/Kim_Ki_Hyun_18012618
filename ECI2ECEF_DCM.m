@@ -14,3 +14,4 @@ theta_g = siderealTime(jd);
 DCM = [cos(deg2rad(theta_g)) sin(deg2rad(theta_g)) 0;
       -sin(deg2rad(theta_g)) cos(deg2rad(theta_g)) 0;
       0 0 1];
+end
