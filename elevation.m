@@ -10,7 +10,7 @@ function [el] = elevation(ENU,el_mask)
 n = size(ENU,1);
 el = zeros(1,n);
 
-    for i = 1 : num
+    for i = 1 : n
     
         E = ENU(i,1);
         N = ENU(i,2);
