@@ -7,7 +7,9 @@
 
 function [DCM] = ECI2ECEF_DCM(time)
 
-jd = juliandate(time);
+t = datetime(time)
+
+jd = juliandate(t);
 
 theta_g = siderealTime(jd);
 
