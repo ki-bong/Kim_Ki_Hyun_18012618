@@ -15,7 +15,7 @@ az = zeros(1,n);
         E = ENU(i,1);
         N = ENU(i,2);
         U = ENU(i,3);
-    
+        
         az(1,i) = rad2deg(atan2(E,N));
     
         if(az(1,i) <= 0)

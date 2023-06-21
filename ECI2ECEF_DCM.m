@@ -7,7 +7,7 @@
 
 function [DCM] = ECI2ECEF_DCM(time)
 
-t = datetime(time)
+t = datetime(time);
 
 jd = juliandate(t);
 
